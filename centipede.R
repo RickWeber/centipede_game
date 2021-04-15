@@ -1,6 +1,8 @@
 library(tidyverse)
 # Import submissions
 submissions <- read_csv("submissions.csv")
+# compare all possible strategies
+# submissions <- read_csv("all_strategies.csv")
 # Pull a random strategy from the submissions
 random_strat <- function(p1 = FALSE, tbl = submissions){
     if(p1) {
